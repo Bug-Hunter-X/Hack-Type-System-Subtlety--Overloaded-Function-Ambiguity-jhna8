@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Hack related to function overloading and type inference. The `bug.hack` file shows the problematic code, where an overloaded function might lead to unexpected results due to implicit type coercion. The `bugSolution.hack` file shows how to avoid this issue using explicit type annotations and avoiding ambiguous function signatures.
